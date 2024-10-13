@@ -1,9 +1,31 @@
 # created by virtualenv automatically
 .DS_STORE
 myenv/
-
 node_modules/
-frontend/node_modules/
+db.sqlite3
+
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/
+
+
+
+
+#REACT
+
+.DS_STORE
+node_modules
 scripts/flow/*/.flowconfig
 .flowconfig
 *~
@@ -37,7 +59,7 @@ packages/react-devtools-extensions/firefox/*.xpi
 packages/react-devtools-extensions/firefox/*.pem
 packages/react-devtools-extensions/shared/build
 packages/react-devtools-extensions/.tempUserDataDir
+packages/react-devtools-fusebox/dist
 packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
 packages/react-devtools-timeline/dist
-db.sqlite3
